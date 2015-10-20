@@ -3,7 +3,7 @@ Download and install MongoDB from www.mongodb.org. Then run the database as a si
 
 From the shell prompt type:
 ```
- db.isMaster().maxBsonObjectSize
+db.isMaster().maxBsonObjectSize
 ```
 at the ">" prompt.
 

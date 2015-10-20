@@ -8,3 +8,5 @@ db.products.count()
 ```
 
 Now, what query would you run to get all the products where brand equals the string “ACME”?
+
+*Answer: see hw1-3.js*
