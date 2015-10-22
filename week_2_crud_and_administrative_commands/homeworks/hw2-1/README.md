@@ -36,4 +36,4 @@ homework.a()
 
 What is the output? (The above will check that products_bak is populated.)
 
-*Answer: xyz*
+*Answer: 3.05*

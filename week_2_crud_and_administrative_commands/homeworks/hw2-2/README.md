@@ -29,4 +29,4 @@ homework.b()
 
 What is the output?
 
-*Answer: xyz*
+*Answer: 0.050.019031*
