@@ -5,7 +5,8 @@ Then perform the following in the terminal (or at the command prompt):
 ```
 mongoimport -d pcat -c products --drop products.json
 ```
-If that looks somewhat familiar, that's because it's (nearly) the same command you used to import the pcat.products collection for Homework 2.1, with the only difference in the command being that it will drop the collection if it's already present. This version of the collection, however, contains the state of the collection as it would exist once you've solved all of the homework of chapter 2.
+If that looks somewhat familiar, that's because it's (nearly) the same command you used to import the pcat.products collection for Homework 2.1, with the only difference in the command being that it will drop the collection if it's already present.
+This version of the collection, however, contains the state of the collection as it would exist once you've solved all of the homework of chapter 2.
 
 Next, go into the pcat database.
 ```

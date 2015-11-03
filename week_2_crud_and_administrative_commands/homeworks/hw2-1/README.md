@@ -1,5 +1,6 @@
 # HOMEWORK: HOMEWORK 2.1
-We will use the pcat.products collection from week 1. So start with that; if not already set up, import it:
+We will use the pcat.products collection from week 1.
+So start with that; if not already set up, import it:
 ```
 mongoimport --db pcat -c products < products.json
 ```
@@ -13,12 +14,14 @@ db.products.count()
 ```
 the shell should return `11`.
 
-Next, download homework2.js from the Download Handouts link. Run the shell with this script:
+Next, download homework2.js from the Download Handouts link.
+Run the shell with this script:
 ```
 mongo --shell pcat homework2.js
 ```
 
-First, make a mini-backup of the collection before we start modifying it. In the shell:
+First, make a mini-backup of the collection before we start modifying it.
+In the shell:
 ```
 b = db.products_bak; db.products.find().forEach( function(o){ b.insert(o) } )
 // check it worked:

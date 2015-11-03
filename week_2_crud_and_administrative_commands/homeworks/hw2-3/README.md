@@ -1,5 +1,6 @@
 # HOMEWORK: HOMEWORK 2.3
-How many products have a voice limit? (That is, have a voice field present in the limits subdocument.)
+How many products have a voice limit?
+(That is, have a voice field present in the limits subdocument.)
 
 Input your answer below, no spaces.
 

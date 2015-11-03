@@ -6,7 +6,8 @@ Next, download the handout and run:
 mongo --shell localhost/performance performance.js
 homework.init()
 ```
-Build an index on the "active" and "tstamp" fields. You can verify that you've done your job with
+Build an index on the "active" and "tstamp" fields.
+You can verify that you've done your job with
 ```
 db.sensor_readings.getIndexes()
 ```
@@ -16,6 +17,7 @@ homework.a()
 ```
 and enter the numeric result below (no spaces).
 
-Note: if you would like to try different indexes, you can use `db.sensor_readings.dropIndexes()` to drop your old index before creating a new one. (For this problem you will only need one index beyond the \_id index which is present by default.)
+Note: if you would like to try different indexes, you can use `db.sensor_readings.dropIndexes()` to drop your old index before creating a new one.
+(For this problem you will only need one index beyond the \_id index which is present by default.)
 
 *Answer: 6*
