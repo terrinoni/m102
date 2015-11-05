@@ -41,4 +41,4 @@ homework.c()
 ```
 and enter the result below.
 
-*Answer: xyz*
+*Answer: 5*

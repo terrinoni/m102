@@ -28,4 +28,4 @@ and enter the result.
 
 *Tip: If you ran the shell without replication.js on the command line, restart the shell with it.*
 
-*Answer: xyz*
+*Answer: 6*

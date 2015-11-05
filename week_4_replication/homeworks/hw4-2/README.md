@@ -22,4 +22,4 @@ homework.b()
 ```
 in the mongo shell and enter that result below.
 
-*Answer: xyz*
+*Answer: 5002*

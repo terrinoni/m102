@@ -29,4 +29,4 @@ db.oplog.rs.find( { } ).sort( { $natural : 1 } ).limit( 1 ).next( ).o.msg[0]
 *Note that if you inserted many documents (more than around 500,000), your oplog will roll over and eliminate the document that you need.
 If this happens, you'll need to repeat the previous problems with a set of clean directories in order to find the answer to this question.*
 
-*Answer: xyz*
+*Answer: R*
